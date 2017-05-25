@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+<form action="https://formspree.io/kostudzinski@gmail.com" method="POST" name="mail2">
+
+        <label for="user-name">Imię</label><br>
+        <input type="text" id="user-name" name="name"><br><br>
+
+        <label for="user-surname">Nazwisko</label><br>
+        <input type="text" id="user-surname" name="surname"><br><br>
+
+        <label for="mail">Mail</label><br>
+        <input type="email" id="mail" name="mail"><br><br>
+
+        <label for="phone_number">Numer telefonu</label><br>
+        <input type="text" id="phone_number" name="number"><br><br>
+
+       
+        <p>Miasto</p>
+            
+        <select id="select" name="select">
+              <option value="krakow">Krakow</option>
+              <option value="warszawa">Wraszawa</option>
+              <option value="gdansk">Gdańsk</option>
+        </select><br><br>
+        
+        <p>Płeć</p>
+        <input type="radio" id="male" name="gender" value="male" checked> Male<br>
+        <input type="radio" id="female" name="gender" value="female"> Female<br>
+        <br><br>
+        
+        <input type="checkbox" id="agree" name="agree" value="agreement">Zgoda na dane osobowe<br><br>
+
+        <label for="message">Wiadomość</label><br>
+        <textarea maxlength="200" id="message" name="message"></textarea><br><br>
+
+        <input type="submit" value="Send">
+
+
+    </form>
+
+</body>
+
+</html>
